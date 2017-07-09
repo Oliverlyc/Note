@@ -21,8 +21,6 @@ $ git reset --hard HEAD^
 	//回退到上一个版本
 $ rm test.txt 
 	//删除工作区文件
-
-
 #添加远程库#
 $ git remote add origin <herf>
 $ git push (-u //远程库为空) origin master  
