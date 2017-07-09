@@ -1,0 +1,23 @@
+$ git log 
+	//查看版本
+
+#创建仓库#
+$ mkdir <repository name> 
+	//创建目录
+$ git init 
+	//将目录变成可管理的仓库(目录下会有一个.git文件夹)
+$ git add <file name> 
+	//将文件添加到仓库(可以添加多个)
+$ git commit -m "添加说明$" 
+	//提交
+$ git status 
+	//查看仓库状态
+
+#版本#
+$ git reset --hard HEAD^ 
+	//回退到上一个版本
+
+#添加远程库#
+$ git remote add origin <herf>
+$ git push origin master (-u //远程库为空) 
+	//推送本地库到远程
