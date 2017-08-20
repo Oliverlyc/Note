@@ -1,0 +1,4 @@
+#使用Date方法时要将变量类型更改为ObjectDate#
+ var time = new Date();
+ time.getHours();
+ 

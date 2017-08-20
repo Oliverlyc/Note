@@ -10,7 +10,7 @@ $ git init
 $ git add <file name> 
 	//将文件添加到仓库(可以添加多个)
 $ git commit -m "添加说明$" 
-	//提交
+	//提交到仓库
 $ git status 
 	//查看仓库状态
 $ git diff
@@ -21,7 +21,7 @@ $ git reset --hard HEAD^
 	//回退到上一个版本
 $ rm test.txt 
 	//删除工作区文件
-	
+
 #添加远程库#
 $ git remote add origin <herf>
 $ git push (-u //远程库为空) origin master  
